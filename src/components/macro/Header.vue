@@ -3,7 +3,7 @@
     <div class="container">
       <div class="header-wrapper">
         <div class="header-logo">
-          <img src="../assets/images/avada-marketing-logo.png" alt="" />
+          <img src="../../assets/images/avada-marketing-logo.png" alt="Logo" />
         </div>
         <div class="header-menu">
           <nav class="header-nav">
@@ -19,7 +19,6 @@
                   <div class="freccia">
                     <i class="fas fa-chevron-down"></i>
                   </div>
-                  <!-- <div class="apply" v-if="link.apply">Apply</div> -->
                 </a>
               </li>
             </ul>
@@ -77,10 +76,12 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-@import "../assets/style/variables.scss";
+@import "../../assets/style/variables.scss";
 .header {
   width: 100%;
-  position: absolute;
+  position: fixed;
+  z-index: 100;
+  background-color: $White;
   top: 0;
   &-wrapper {
     display: flex;
