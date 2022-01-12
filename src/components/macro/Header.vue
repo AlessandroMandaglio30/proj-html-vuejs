@@ -1,33 +1,31 @@
 <template>
   <header class="header">
-    <div class="container">
-      <div class="header-wrapper">
-        <div class="header-logo">
-          <img src="../../assets/images/avada-marketing-logo.png" alt="Logo" />
-        </div>
-        <div class="header-menu">
-          <nav class="header-nav">
-            <ul class="list">
-              <li class="item" v-for="(link, index) in links" :key="index">
-                <a
-                  class="link"
-                  :class="{ selected: link.selected }"
-                  :href="link.link"
-                  :title="link.name"
-                >
-                  {{ link.name }}
-                  <div class="freccia">
-                    <i class="fas fa-chevron-down"></i>
-                  </div>
-                </a>
-              </li>
-            </ul>
-            <a class="cell" href="#"
-              ><i class="fas fa-phone-alt"></i>(555)802-1234</a
-            >
-            <button class="button">Free Quote</button>
-          </nav>
-        </div>
+    <div class="header-wrapper">
+      <div class="header-logo">
+        <img src="../../assets/images/avada-marketing-logo.png" alt="Logo" />
+      </div>
+      <div class="header-menu">
+        <nav class="header-nav">
+          <ul class="list">
+            <li class="item" v-for="(link, index) in links" :key="index">
+              <a
+                class="link"
+                :class="{ selected: link.selected }"
+                :href="link.link"
+                :title="link.name"
+              >
+                {{ link.name }}
+                <div class="freccia">
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <a class="cell" href="#"
+            ><i class="fas fa-phone-alt"></i>(555)802-1234</a
+          >
+          <button class="button">Free Quote</button>
+        </nav>
       </div>
     </div>
   </header>

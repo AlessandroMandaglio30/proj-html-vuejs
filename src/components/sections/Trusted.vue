@@ -51,7 +51,6 @@ export default {
   .img {
     display: flex;
     margin-left: 13%;
-
     height: 500px;
   }
   img {
@@ -87,4 +86,4 @@ export default {
     font-size: 20px;
   }
 }
-</style>
+</style> 

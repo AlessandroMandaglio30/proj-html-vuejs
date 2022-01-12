@@ -4,7 +4,7 @@
     <div class="text-hero">
       <div class="subtitle">
         <h1>
-          Your Online <br />
+          Unlock Your Online <br />
           Growth Potential
         </h1>
       </div>
@@ -61,7 +61,7 @@ export default {
     top: 40%;
     left: 10%;
     .subtitle {
-      font-size: 1.75rem;
+      font-size: 1.65rem;
       font-weight: bold;
     }
     h5 {
