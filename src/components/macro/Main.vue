@@ -4,6 +4,7 @@
     <Workwith />
     <Trusted />ù
     <Weboost />
+    <Team />
   </main>
 </template>
 
@@ -12,6 +13,7 @@ import Marketing from "../sections/Marketing.vue";
 import Workwith from "../sections/Workwith.vue";
 import Trusted from "../sections/Trusted.vue";
 import Weboost from "../sections/Weboost.vue";
+import Team from "../sections/Team.vue";
 export default {
   name: "Main",
   components: {
@@ -19,6 +21,7 @@ export default {
     Workwith,
     Trusted,
     Weboost,
+    Team,
   },
 };
 </script>

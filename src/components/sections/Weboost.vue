@@ -199,14 +199,14 @@ export default {
       .text {
         display: flex;
         flex-direction: column;
-        justify-content: end;
-        margin-left: -400px;
+        justify-content: flex-end;
+        margin-left: -410px;
         padding: 10px;
         font-size: 30px;
       }
       img {
         width: 280px;
-        margin: 35px 140px;
+        margin: 45px 140px;
       }
     }
   }
