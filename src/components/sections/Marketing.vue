@@ -5,7 +5,7 @@
         <img src="../../assets/images/svg/first.svg" alt="Increase" />
       </div>
       <div class="dx">
-        <h3>Business Growth</h3>
+        <h3><i class="blu fas fa-link"></i>Business Growth</h3>
         <h2>Increase Brand Awareness</h2>
         <h5>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed auctor
@@ -17,7 +17,7 @@
     </div>
     <div class="secondo_cont">
       <div class="sx">
-        <h3>Investors In People</h3>
+        <h3><i class="arancio fas fa-link"></i>Investors In People</h3>
         <h2>In-House Sales Training</h2>
         <h5>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor
@@ -35,7 +35,7 @@
         <img src="../../assets/images/svg/third.svg" alt="Increase" />
       </div>
       <div class="dx">
-        <h3>Social Media Analysis</h3>
+        <h3><i class="verde fas fa-link"></i>Social Media Analysis</h3>
         <h2>Harness Your Social Proof</h2>
         <h5>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed auctor
@@ -94,6 +94,12 @@ export default {
         background-color: $Ectasy;
       }
     }
+    .blu {
+      background-color: rgb(0, 153, 255);
+      color: $White;
+      font-size: 25px;
+      border-radius: 50%;
+    }
   }
 }
 .secondo_cont {
@@ -135,6 +141,12 @@ export default {
       height: 600px;
     }
   }
+  .arancio {
+    background-color: rgb(255, 196, 0);
+    color: $White;
+    font-size: 25px;
+    border-radius: 50%;
+  }
 }
 .terzo_cont {
   display: flex;
@@ -173,6 +185,12 @@ export default {
         color: $White;
         background-color: $Ectasy;
       }
+    }
+    .verde {
+      background-color: rgb(8, 185, 8);
+      color: $White;
+      font-size: 25px;
+      border-radius: 50%;
     }
   }
 }
