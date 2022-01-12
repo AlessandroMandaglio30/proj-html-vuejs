@@ -133,6 +133,7 @@ export default {
       border-radius: 7px;
       padding: 0.3rem 0.7rem;
       font-size: 1.25rem;
+      cursor: pointer;
     }
   }
 }

@@ -57,11 +57,11 @@ export default {
     color: $White;
     text-align: left;
     position: relative;
-    width: 20%;
+    width: 25%;
     top: 40%;
     left: 10%;
     .subtitle {
-      font-size: 1.25rem;
+      font-size: 1.75rem;
       font-weight: bold;
     }
     h5 {
