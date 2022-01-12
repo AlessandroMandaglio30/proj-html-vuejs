@@ -20,3 +20,19 @@ body {
 a{
     text-decoration: none;
 }
+
+
+    .btn_orange {
+      color: $White;
+      background-color: $Ectasy;
+      margin-top: 20px;
+      border-radius: 10px;
+      padding: 15px 80px;
+      font-size: 15px;
+      cursor: pointer;
+      display: inline-block;
+      &:hover {
+        color: $White;
+        background-color: $Ectasy;
+      }
+    }
