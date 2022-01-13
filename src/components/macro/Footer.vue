@@ -44,6 +44,20 @@
         <a class="call" href="#">Call Us (555)802-1234</a>
         <a href="#">info@yourcompany.com</a>
       </div>
+      <div>
+        <div class="riquadro">
+          <img
+            class="avatar"
+            src="../../assets/images/marketing-expert-cta.png"
+            alt=""
+          />
+          <p>
+            This is a free HubSpot live chat. You can create your own chat flows
+            and engage your customers with Avada & HubSpot!
+          </p>
+        </div>
+        <i class="chat fas fa-comments"></i>
+      </div>
     </nav>
   </footer>
 </template>
@@ -57,7 +71,7 @@ export default {
 <style lang="scss" scoped>
 @import "../../assets/style/variables.scss";
 footer {
-  height: 400px;
+  height: 570px;
   margin-top: 5%;
   .content {
     display: flex;
@@ -90,6 +104,30 @@ footer {
     .call {
       margin-left: -20%;
     }
+  }
+  .riquadro {
+    background-color: $White;
+    width: 230px;
+    height: 140px;
+    margin-left: 102%;
+    margin-top: -5%;
+    border-radius: 5px;
+    border: 2px solid $GrayNurse;
+    text-align: center;
+    font-size: 16px;
+    .avatar {
+      margin-top: -40px;
+      border-radius: 50%;
+      padding: 7px;
+      height: 80px;
+      width: 80px;
+    }
+  }
+  .chat {
+    color: $Tango;
+    margin-left: 114%;
+    font-size: 45px;
+    margin-top: 20px;
   }
 }
 </style>
