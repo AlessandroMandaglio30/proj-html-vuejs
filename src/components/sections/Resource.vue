@@ -52,8 +52,8 @@ export default {
 @import "../../assets/style/variables.scss";
 #resource {
   background-color: #fbfbfc;
-  margin-top: 10%;
   .sopra {
+    margin-top: 10%;
     display: flex;
     .sx {
       width: 50%;

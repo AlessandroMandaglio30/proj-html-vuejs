@@ -6,6 +6,7 @@
     <Weboost />
     <Team />
     <Resource />
+    <Things />
   </main>
 </template>
 
@@ -16,6 +17,7 @@ import Trusted from "../sections/Trusted.vue";
 import Weboost from "../sections/Weboost.vue";
 import Team from "../sections/Team.vue";
 import Resource from "../sections/Resource.vue";
+import Things from "../sections/Things.vue";
 export default {
   name: "Main",
   components: {
@@ -25,6 +27,7 @@ export default {
     Weboost,
     Team,
     Resource,
+    Things,
   },
 };
 </script>
